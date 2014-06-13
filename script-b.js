@@ -1,9 +1,7 @@
 jQuery(function ($) {
-
 	/*
 	 * preventDefault / stopPropagation を使わない例 (不具合あり)
 	 */
-
 	$('.btnOpen').click(function () {
 		// ボタンが押されたら、モーダルウィンドウを表示
 		$('.windowBg').show();
